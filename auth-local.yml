@@ -5,6 +5,24 @@ logging:
 
 server:
   port: 8085
+  
+spring:
+  jpa:
+    show-sql: false
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#  jmx:
+#    enabled: false
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/microservices?allowPublicKeyRetrieval=true&sslMode=DISABLED&useTimezone=true&serverTimezone=UTC
+#    username: root
+#    password: 102030
+  h2:
+    console:
+      enabled: true
     
 management:
   endpoints:
